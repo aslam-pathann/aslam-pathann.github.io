@@ -1,49 +1,170 @@
 <!doctype html>
+
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
-    <meta name="theme-color" content="#030712" />
 
-    <title>Aslam Pathan | Web &amp; API Security Researcher</title>
-    <meta
-      name="description"
-      content="Aslam Pathan — Web &amp; API Security Researcher and Bug Bounty Hunter specializing in web application security, API security, and responsible disclosure. TryHackMe Top 1%."
-    />
-    <meta name="author" content="Aslam Pathan" />
-    <meta
-      name="keywords"
-      content="Aslam Pathan, Web Security Researcher, API Security, Bug Bounty Hunter, Responsible Disclosure, TryHackMe, CTF, Application Security"
-    />
+```
+<meta
+  name="viewport"
+  content="width=device-width, initial-scale=1.0"
+/>
 
-    <!-- Open Graph -->
-    <meta property="og:type" content="website" />
-    <meta property="og:title" content="Aslam Pathan | Web & API Security Researcher" />
-    <meta
-      property="og:description"
-      content="Bug Bounty Hunter and Web &amp; API Security Researcher focused on responsible disclosure and hands-on security research. TryHackMe Top 1%."
-    />
-    <meta property="og:image" content="./assets/og-cover.svg" />
+<meta
+  name="theme-color"
+  content="#030712"
+/>
 
-    <!-- Twitter -->
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Aslam Pathan | Web & API Security Researcher" />
-    <meta
-      name="twitter:description"
-      content="Bug Bounty Hunter and Web &amp; API Security Researcher focused on responsible disclosure and hands-on security research."
-    />
-    <meta name="twitter:image" content="./assets/og-cover.svg" />
+<meta
+  name="robots"
+  content="index, follow"
+/>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap"
-      rel="stylesheet"
-    />
+<meta
+  name="googlebot"
+  content="index, follow"
+/>
+
+<!-- Favicon -->
+<link
+  rel="icon"
+  type="image/svg+xml"
+  href="./favicon.svg"
+/>
+
+<!-- Primary SEO -->
+<title>Aslam Pathan | Web &amp; API Security Researcher</title>
+
+<meta
+  name="description"
+  content="Aslam Pathan is a Web &amp; API Security Researcher, Bug Bounty Hunter and CTF Player focused on web application security, API security, responsible disclosure and hands-on security research. TryHackMe Top 1%."
+/>
+
+<meta
+  name="author"
+  content="Aslam Pathan"
+/>
+
+<meta
+  name="keywords"
+  content="Aslam Pathan, Bug Bounty Hunter, Security Researcher, Web Security Researcher, API Security, Web Application Security, Responsible Disclosure, CTF Player, TryHackMe Top 1%, Cybersecurity"
+/>
+
+<!-- Canonical -->
+<link
+  rel="canonical"
+  href="https://aslam-pathann.github.io/"
+/>
+
+<!-- Open Graph -->
+<meta
+  property="og:type"
+  content="website"
+/>
+
+<meta
+  property="og:title"
+  content="Aslam Pathan | Web &amp; API Security Researcher"
+/>
+
+<meta
+  property="og:description"
+  content="Web &amp; API Security Researcher, Bug Bounty Hunter and CTF Player focused on responsible security research and responsible disclosure."
+/>
+
+<meta
+  property="og:url"
+  content="https://aslam-pathann.github.io/"
+/>
+
+<meta
+  property="og:site_name"
+  content="Aslam Pathan"
+/>
+
+<meta
+  property="og:image"
+  content="https://aslam-pathann.github.io/assets/og-cover.svg"
+/>
+
+<meta
+  property="og:image:alt"
+  content="Aslam Pathan — Web &amp; API Security Researcher"
+/>
+
+<!-- Twitter / X -->
+<meta
+  name="twitter:card"
+  content="summary_large_image"
+/>
+
+<meta
+  name="twitter:title"
+  content="Aslam Pathan | Web &amp; API Security Researcher"
+/>
+
+<meta
+  name="twitter:description"
+  content="Web &amp; API Security Researcher, Bug Bounty Hunter and CTF Player focused on responsible security research."
+/>
+
+<meta
+  name="twitter:image"
+  content="https://aslam-pathann.github.io/assets/og-cover.svg"
+/>
+
+<meta
+  name="twitter:image:alt"
+  content="Aslam Pathan — Web &amp; API Security Researcher"
+/>
+
+<!-- Identity / Structured Data -->
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Aslam Pathan",
+    "url": "https://aslam-pathann.github.io/",
+    "jobTitle": "Web & API Security Researcher",
+    "sameAs": [
+      "https://github.com/aslam-pathann",
+      "https://www.linkedin.com/in/aslam-pathan/",
+      "https://youtube.com/@pathanaslam1280"
+    ]
+  }
+</script>
+
+<!-- Performance: Font Connections -->
+<link
+  rel="preconnect"
+  href="https://fonts.googleapis.com"
+/>
+
+<link
+  rel="preconnect"
+  href="https://fonts.gstatic.com"
+  crossorigin
+/>
+
+<!-- Fonts -->
+<link
+  href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap"
+  rel="stylesheet"
+/>
+```
+
   </head>
+
   <body class="bg-ink-950 text-mist-100 font-body antialiased">
     <div id="root"></div>
-    <script type="module" src="./src/main.tsx"></script>
+
+```
+<!-- Vite / React entry point: KEEP THIS UNCHANGED -->
+<script
+  type="module"
+  src="./src/main.tsx"
+></script>
+```
+
   </body>
 </html>
