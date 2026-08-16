@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#030712"/>
+      <stop offset="1" stop-color="#0F172A"/>
+    </linearGradient>
+    <radialGradient id="glowA" cx="0.12" cy="0" r="0.7">
+      <stop offset="0" stop-color="#7C3AED" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#7C3AED" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx="0.9" cy="0.1" r="0.6">
+      <stop offset="0" stop-color="#22D3EE" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#22D3EE" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowC" cx="0.3" cy="1" r="0.7">
+      <stop offset="0" stop-color="#10B981" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#10B981" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#glowA)"/>
+  <rect width="1200" height="630" fill="url(#glowB)"/>
+  <rect width="1200" height="630" fill="url(#glowC)"/>
+  <g opacity="0.05" stroke="#F8FAFC">
+    <path d="M0 100H1200M0 200H1200M0 300H1200M0 400H1200M0 500H1200" stroke-width="1"/>
+    <path d="M150 0V630M350 0V630M550 0V630M750 0V630M950 0V630M1150 0V630" stroke-width="1"/>
+  </g>
+  <path d="M100 210L145 195L190 210V255C190 288 170 315 145 323C120 315 100 288 100 255V210Z" stroke="#10B981" stroke-width="3" stroke-linejoin="round" fill="none"/>
+  <path d="M124 258L138 272L168 240" stroke="#34D399" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="100" y="400" font-family="Arial, sans-serif" font-size="64" font-weight="700" fill="#F8FAFC">Aslam Pathan</text>
+  <text x="100" y="450" font-family="Arial, sans-serif" font-size="30" font-weight="500" fill="#34D399">Web &amp; API Security Researcher</text>
+  <text x="100" y="495" font-family="monospace" font-size="20" letter-spacing="2" fill="#94A3B8">BUG BOUNTY · RESPONSIBLE DISCLOSURE · TRYHACKME TOP 1%</text>
+</svg>
